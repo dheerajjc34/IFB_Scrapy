@@ -12,6 +12,10 @@ class Amzn1Item(scrapy.Item):
     product_name = scrapy.Field()
     product_rating = scrapy.Field()
     product_price = scrapy.Field()
+    no_ratings = scrapy.Field()
+    highlights = scrapy.Field()
+    tech_details = scrapy.Field()
+    prod_desc = scrapy.Field()
 
     pass
 

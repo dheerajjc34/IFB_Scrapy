@@ -42,19 +42,31 @@ class WashIfbSpider(scrapy.Spider):
 
     def parse(self, response):
         items = Amzn1Item()
+        #scrape selectors
         product_name = response.xpath('//*[(@id = "productTitle")]/text()').extract()
         product_rating = response.css('.a-size-medium.a-color-base').css('::text').extract()
-        #a-size-medium a-color-base a-text-beside-button a-text-bold
         product_price = response.xpath('//*[(@id = "priceblock_ourprice")]/text()').extract()
-
+        no_ratings = response.xpath('//*[(@id = "acrCustomerReviewText")]/text()').extract()
+        highlights = response.xpath('//*[(@id = "feature-bullets")]//*[contains(concat( " ", @class, " " ), concat( " ", "a-list-item", " " ))]/text()').extract()
+        tech_details = response.xpath('//*[contains(concat( " ", @class, " " ), concat( " ", "col1", " " ))]//td/text()').extract()
+        prod_desc = response.css('.apm-top .a-spacing-mini').css('::text').extract()
         #cleaning text
         names = [item.strip('\n') for item in product_name]
         prices = [item.strip('\u20b9\xa0') for item in product_price]
         rating = [item.strip(' out of 5') for item in product_rating]
+        no_rati = [item.strip(' ratings') for item in no_ratings]
+        highl = [item.strip('\n') for item in highlights]
+        prod = [item.replace('\n\n        ','') for item in prod_desc]
+        prod2 = [item.replace('\n    ',' ') for item in prod]
 
+        #writing
         items['product_name'] = names
         items['product_rating'] = rating
         items['product_price'] = prices
+        items['no_ratings'] = no_rati
+        items['highlights'] = highl
+        items['tech_details'] = tech_details
+        items['prod_desc'] = prod2
 
 
         yield items
