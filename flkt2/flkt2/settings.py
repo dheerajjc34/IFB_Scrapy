@@ -1,4 +1,4 @@
-# Scrapy settings for amzn1 project
+# Scrapy settings for flkt2 project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,18 +7,17 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'amzn1'
+BOT_NAME = 'flkt2'
 
-SPIDER_MODULES = ['amzn1.spiders']
-NEWSPIDER_MODULE = 'amzn1.spiders'
+SPIDER_MODULES = ['flkt2.spiders']
+NEWSPIDER_MODULE = 'flkt2.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'amzn1 (+http://www.yourdomain.com)'
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
-
+#USER_AGENT = 'flkt2 (+http://www.yourdomain.com)'
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 PROXY_POOL_ENABLED = True
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -46,18 +45,20 @@ PROXY_POOL_ENABLED = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'amzn1.middlewares.Amzn1SpiderMiddleware': 543,
+#    'flkt2.middlewares.Flkt2SpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'amzn1.middlewares.Amzn1DownloaderMiddleware': 543,
+#    'flkt2.middlewares.Flkt2DownloaderMiddleware': 543,
 #}
-DOWNLOADER_MIDDLEWARES = {
-    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-    'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
-}
+'''DOWNLOADER_MIDDLEWARES = {
+    #'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    #'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
+    'scrapy_proxy_pool.middlewares.ProxyPoolMiddleware': 610,
+    'scrapy_proxy_pool.middlewares.BanDetectionMiddleware': 620,
+}'''
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
@@ -67,7 +68,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'amzn1.pipelines.Amzn1Pipeline': 300,
+#    'flkt2.pipelines.Flkt2Pipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

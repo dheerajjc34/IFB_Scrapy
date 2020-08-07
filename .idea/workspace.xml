@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8c45d62-c9f8-4c73-bebe-2e8fd566cb1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amzn1/wash_amzn_ifb3.csv" afterDir="false" />
+    <list default="true" id="d8c45d62-c9f8-4c73-bebe-2e8fd566cb1d" name="Default Changelist" comment="scraping from amzn/flip done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amzn1/amzn1/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/amzn1/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amzn1/amzn1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/amzn1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amzn1/amzn1/spiders/wash_ifb.py" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/amzn1/spiders/wash_ifb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amzn1/wash_ifb_amzn.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amzn1/amzn1/spiders/wash_ifb_links.py" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/amzn1/spiders/wash_ifb_links.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amzn1/wash_amzn_ifb3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/wash_amzn_ifb3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amzn1/wash_ifb_links.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,14 @@
       <option name="presentableId" value="Default" />
       <updated>1596288077994</updated>
     </task>
+    <task id="LOCAL-00001" summary="washing mach done in flip, amzn">
+      <created>1596635874209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596635874209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,10 +69,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="washing mach done in flip, amzn" />
+    <option name="LAST_COMMIT_MESSAGE" value="washing mach done in flip, amzn" />
   </component>
 </project>
