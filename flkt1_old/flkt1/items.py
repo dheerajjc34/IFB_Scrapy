@@ -15,14 +15,6 @@ class Flkt1Item(scrapy.Item):
     no_ratings = scrapy.Field()
     highlights = scrapy.Field()
     prod_desc = scrapy.Field()
-    gen_spec = scrapy.Field()
-    wash_mod = scrapy.Field()
-    body_feat = scrapy.Field()
-    conv_feat = scrapy.Field()
-    pow_feat = scrapy.Field()
-    add_feat = scrapy.Field()
-    dimensions = scrapy.Field()
-
     pass
 
 class FlktLinkItem(scrapy.Item):

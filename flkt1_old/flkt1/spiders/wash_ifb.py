@@ -58,13 +58,6 @@ class WashIfbSpider(scrapy.Spider):
         no_ratings = response.css('._2yc1Qo:nth-child(2) span').css('::text').extract()
         highlights = response.css('.g2dDAR').css('::text').extract()
         prod_desc = response.css('._2THx53').css('::text').extract()
-        gen_spec = response.css('._2RngUh').css('::text').extract()
-        wash_mod = response.css('._2RngUh:nth-child(4)').css('::text').extract()
-        body_feat = response.css('._2RngUh:nth-child(5)').css('::text').extract()
-        conv_feat = response.css('._2RngUh:nth-child(6)').css('::text').extract()
-        pow_feat = response.css('._2RngUh:nth-child(7)').css('::text').extract()
-        add_feat = response.css('._2RngUh:nth-child(8)').css('::text').extract()
-        dimensions = response.css('._2RngUh:nth-child(9)').css('::text').extract()
 
         #cleaning
         prices = [item.strip('\u20b9') for item in product_price]
@@ -77,12 +70,5 @@ class WashIfbSpider(scrapy.Spider):
         items['no_ratings'] = ratings
         items['highlights'] = highlights
         items['prod_desc'] = prod_desc
-        items['gen_spec'] = gen_spec
-        items['wash_mod'] = wash_mod
-        items['body_feat'] = body_feat
-        items['conv_feat'] = conv_feat
-        items['pow_feat'] = pow_feat
-        items['add_feat'] = add_feat
-        items['dimensions'] = dimensions
 
         yield items

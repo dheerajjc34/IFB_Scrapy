@@ -6,7 +6,8 @@ class LinkFetchSpider(scrapy.Spider):
     name = 'link_fetch'
 
     start_urls = [
-        'https://www.flipkart.com/search?sid=j9e%2Fm38%2Fo49&otracker=CLP_Filters&p%5B%5D=facets.brand%255B%255D%3DIFB'
+        'https://www.flipkart.com/search?sid=j9e%2Fabm%2F8qx&otracker=CLP_Filters&p%5B%5D=facets.brand%255B%255D%3DIFB&page=1',
+        'https://www.flipkart.com/search?sid=j9e%2Fabm%2F8qx&otracker=CLP_Filters&p%5B%5D=facets.brand%255B%255D%3DIFB&page=2'
     ]
 
     def parse(self, response):
