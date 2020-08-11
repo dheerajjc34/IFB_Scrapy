@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c45d62-c9f8-4c73-bebe-2e8fd566cb1d" name="Default Changelist" comment="scraping from amzn/flip done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amzn1/amzn1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/amzn1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amzn1/amzn1/spiders/wash_ifb.py" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/amzn1/spiders/wash_ifb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amzn1/amzn1/spiders/wash_ifb_links.py" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/amzn1/spiders/wash_ifb_links.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amzn1/wash_amzn_ifb3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/amzn1/wash_amzn_ifb3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amzn1/wash_ifb_links.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flkt1.rar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +24,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
