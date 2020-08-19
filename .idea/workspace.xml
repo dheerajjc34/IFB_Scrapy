@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d8c45d62-c9f8-4c73-bebe-2e8fd566cb1d" name="Default Changelist" comment="scraping from amzn/flip done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/oven_amzn_clean-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/oven_amzn_clean-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/oven_flip_bosch.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/oven_flip_bosch.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/oven_flip_ifb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/oven_flip_ifb.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/oven_flip_lg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/oven_flip_lg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/oven_flip_samsung.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/oven_flip_samsung.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/wash_amzn_bosch.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/wash_amzn_bosch.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/wash_amzn_ifb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/wash_amzn_ifb.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/wash_amzn_lg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/wash_amzn_lg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/wash_amzn_samsung.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/wash_amzn_samsung.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/wash_flip_bosch.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/wash_flip_bosch.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/wash_flip_ifb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/wash_flip_ifb.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/wash_flip_lg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/wash_flip_lg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCopy/wash_flip_samsung.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataCopy/wash_flip_samsung.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oven_amzn_clean.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/oven_amzn_clean.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amzn_reviews.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flip_reviews/flip_reviews/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/flip_reviews/flip_reviews/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flip_reviews/flip_reviews/spiders/reviews.py" beforeDir="false" afterPath="$PROJECT_DIR$/flip_reviews/flip_reviews/spiders/reviews.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
